@@ -1,1 +1,1 @@
-# SEMI_LMI
+# SEMI-LMI
