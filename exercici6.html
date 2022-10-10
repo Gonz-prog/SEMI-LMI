@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entitats i Símbols</title>
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        .a {
+            padding-left: 190px;
+        }
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Entitats HTML</h3>
+    <p>Alguns caràcters estan reservats en HTML.<br>
+        Si utilitzeu &lt; o &gt; al vostre text, el 
+        navegador podria confondre'ls amb els de les 
+        etiquetes.<br>Les entitats de caràcters s'utilitzen
+        per mostrar caràcters reservats en HTML.
+        </p><br>
+    
+    <table>Altres exemples son:<br>
+        <tr>
+            <th>euro</th>
+            <td class="a">&euro;</td>
+        </tr>
+        <tr>
+            <th>Copiright</th>
+            <td class="a">&copy;</td>
+        </tr>
+        <tr>
+            <th>Marca registrada</th>
+            <td class="a">&reg;</td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>Símbols</h3>
+    <p>Molts símbols matemàtics, tècnics i de moneda no estan presents en un
+        teclat normal. Per afegir aquests símbols a una pàgina HTML, podeu
+        utilitzar un nom d'entitat HTML.</p><br>
+    <p>Si no hi ha cap nom de l'entitat, podeu utilitzar un número d'entitat, una
+        referència decimal o hexadecimal.
+    </p>
+    <table>
+        <tr>
+            <td>matemàtic&nbsp;&nbsp;</td>
+            <td>Existeix&nbsp;&nbsp;</td>
+            <td>&exist;</td>
+        </tr>
+        <tr>
+            <td>grec&nbsp;&nbsp;</td>
+            <td>Delta&nbsp;&nbsp;</td>
+            <td>&uarr;</td>
+        </tr>
+        <tr>
+            <td>Altres&nbsp;&nbsp;</td>
+            <td>Fletxa amunt&nbsp;&nbsp;</td>
+            <td>&exist;</td>
+        </tr>
+    </table>
+    <p>Una entitat molt usada és l'espai que no es trenca:&nbsp;</p>
+    <p>I més...</p>
+    <p>&#9925;&nbsp;&nbsp;&#x26D4;&nbsp;&nbsp;&#9875;&nbsp;&nbsp;</p>
+    <a href="https://unicode.org/emoji/charts/full-emoji-list.html#1f970">Emoji</a>
+    <p>&#x1F600;</p>
+    <p>&#x1F916;</p>
+</body>
+</html>
