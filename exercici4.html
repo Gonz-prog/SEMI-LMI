@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llistes</title>
+    <style>
+        ol.a {
+            list-style-type: upper-alpha;
+        }
+        ul.b {
+            list-style: circle;
+        }
+    </style>
+</head>
+<body>
+    <h1> LLISTES AMB ÍNDEX </h1>
+    <h2> Índex </h2>
+    <a href=exercici4.html#1>Llista desordenada</a><br/></br>
+    <a href=exercici4.html#2>Llista ordenada</a><br/></br>
+    <a href=exercici4.html#3>Llista anidada</a><br/></br>
+    <br>
+    <ul id="1">Llenguatges de marques:
+        <li>SMGL</li>
+        <li>XML</li>
+        <li>HTML</li>
+        <li>XHTML</li>
+    </ul>
+    <br>
+    <ol id="2">Passes de creació de document HTML:
+        <li>Obrir l'editor de text pla (VSC)</li>
+        <li>Escriure el text amb etiquetes</li>
+        <li>Guardar com a .html o .htm</li>
+        <li>Previsualitzar en el navegador</li>
+    </ol>
+    <br>
+    <dl>
+        <dt>HTML</dt>
+        <dd>És un llenguatge de marcat que deriva de l'SGML
+            dissenyat per estructurar textos i relacionar-los en
+            forma d'hipertext.</dd>
+        <dt>W3C</dt>
+        <dd>El World Wide Web Consortium (W3C) és un
+            consorci internacional que treballa per a
+            desenvolupar i promocionar estàndards per al
+            World Wide Web.</dd>
+    </dl>
+    <ol id="3">
+        <li>Maquinari
+            <ul>
+                <li>Pantalla
+                    <ul>
+                        <li>17"</li>
+                        <li>21"</li>
+                    </ul>
+                </li>
+                <li>Ratolí</li>
+                <li>Procesador
+                   <ul>
+                    <li>AMD</li>
+                    <li>Intel</li>
+                        <ul class="b">
+                            <li>i5</li>
+                            <li>i7</li>
+                        </ul>
+                   </ul> 
+                </li>
+            </ul>
+        </li>
+        <li>Programari
+            <ol>
+                <li type="I">Sistema operatiu
+                    <dl>
+                        <dt>Linux</dt> 
+                        <dd>Linux és una familia de sistemes operatius formats pel Nucli del sistema
+                            operatiu (kernel) Linux juntament amb les utilitats GNU, denominat de
+                            vegades GNU/Linux.</dd>
+                        <dt>Windows</dt>
+                        <dd>Microsoft Windows és una sèrie de sistemes operatius i interfícies gràfiques
+                            d'usuari produïts per Microsoft. Microsoft va introduir per primera vegada
+                            un entorn operatiu anomenat Windows el novembre de 1985 com un
+                            complement a MS-DOS, en resposta al creixent interès en les interfícies
+                            gràfiques d'usuari.</dd>
+                    </dl>
+                </li>
+                <li type="I">Editor
+                    <ol class="a">
+                        <li>Notepad++</li>
+                        <li>Braquets</li>
+                        <li>Visual Studio Code</li>
+                    </ol>
+                </li>
+            </ol>
+    </ol>
+    <br>
+    <a href="https://www.w3schools.com/html/html_links.asp"><img src="./image/images.png"></a>
+</body>
+</html>
