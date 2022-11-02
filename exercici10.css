@@ -1,0 +1,67 @@
+/* Class uno */
+body {
+    width: 100%;
+    background-color:azure;
+}
+/* Class uno */
+.uno {
+    letter-spacing: 30px;
+    word-spacing: 29px;
+    text-transform: capitalize;
+    text-align: center;
+    color: aqua;
+}
+/* Class p_uno */
+.p_uno {
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    text-indent: 9px;
+    text-transform: capitalize;
+    text-align: center;
+    color: aqua;
+}
+/* Class dos */
+.dos {
+    text-transform: lowercase;
+    text-align: left;
+    background-color: burlywood;
+}
+/* Class p_dos */
+.p_dos {
+    text-transform: lowercase;
+    text-align: left;
+    background-color: burlywood;
+}
+/* Class tres */
+.tres {
+    text-transform: uppercase;
+    text-align: right;
+    color: chocolate;
+}
+/* Class p_1 */
+.p_1 {
+    text-align: right;
+}
+/* Class p_tres */
+.p_tres {
+    background-color: aqua;
+    text-transform: uppercase;
+}
+/* Class p_tres_dos */
+.p_tres_dos {
+    font-style: italic;
+    font-size: 50px;
+    color: blue;
+}
+/* Class p_tres_tres */
+.p_tres_tres {
+    font-style: oblique;
+    font-size: 200%;
+    color: tomato;
+}
+/* Class p_tres_cua */
+.p_tres_cua {
+    font-style: italic;
+    font-size: 400%;
+    color: springgreen;
+}
