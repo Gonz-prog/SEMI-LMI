@@ -1,0 +1,19 @@
+body {
+    width: 100%;
+}
+nav {
+    display: inline;
+}
+a {
+    color: brown;
+}
+a:hover, .hover{
+    background-color: rgb(43, 194, 43);
+}
+ul {
+    text-transform: uppercase;
+    padding: 10%;
+}
+ul:hover {
+    background-color: rgb(179, 217, 235);
+}

@@ -1,0 +1,47 @@
+/* Amplaria del cos de la pàgina */
+body {
+    width: 100%;
+}
+/* Estil de la capsalera */
+h2 {
+    text-align: center;
+    background-color: #cc5f34;
+    color: rgb(128, 255, 1);
+    padding: 10px;
+}
+/* Estil de la imatge */
+img {
+    width:70%;
+    display:block;
+    margin:auto;
+}
+/* Estil dels enllaços */
+.none {
+    padding-left: 30%;
+}
+/* Estil del les capsaleres */
+h4 {
+    text-align: center;
+}
+/*Col·locar els elements en línia*/
+nav li {
+    display: inline;
+    margin:20px;
+    }
+/*Aplicar estil als enllaços*/
+nav li a {
+    font-family: Arial;
+    font-size:30px;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #b82b2b;
+    color: #fff;
+    -webkit-border-radius: 15px 5px 15px 5px;
+    border-radius: 15px 5px 15px 5px;
+}
+/*Crear efecto al pasar el ratón*/
+li a:hover {
+    background-color: #ec9595;
+    margin-top:-4px;
+    padding-bottom:14px;
+}

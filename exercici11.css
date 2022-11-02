@@ -1,0 +1,18 @@
+body {
+    width: 100%;
+    background-color: azure;
+}
+ol.a {
+    list-style-type: upper-alpha;
+}
+ul.b {
+    list-style: circle;
+}
+.a {
+    list-style: armenian;
+}
+
+.b {
+    list-style-type: "\1F44D";
+    list-style-position: inside;
+}
